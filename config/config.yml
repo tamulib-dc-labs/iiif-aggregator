@@ -58,6 +58,21 @@ collections:
     notes:
       - ""
     thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
+  stephen-powys:
+    name: "Stephen Powys Marks London Collection"
+    summary: ""
+    curator: "Anton du Plessis"
+    groups:
+      - maps
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/Stephen_Powys_Marks_London_Collection"
+    platform:
+      name: Spotlight
+      url: "https://spotlight.library.tamu.edu/spotlight/london-collection"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://api.library.tamu.edu/iiif/2/21466074-c682-3cd4-ae1b-58ae9cef6d6d/full/full/0/default.jpg"
 groups:
   africana:
     name: Africana Studies
@@ -69,6 +84,7 @@ groups:
     members:
       - berger
       - charting-texas
+      - stephen-powys
       - time-to-resolve
     summary: A IIIF Collection containing all Collections with no sorting
   book-arts:
@@ -90,6 +106,7 @@ groups:
     name: Map Collections
     members:
       - charting-texas
+      - stephen-powys
     summary: "All map collections from University Archives"
     thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
   mexican:
