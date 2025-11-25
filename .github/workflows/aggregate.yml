@@ -12,24 +12,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (full history)
         uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          fetch-depth: 0
 
-      - name: Switch to iiif branch
+      - name: Prepare iiif branch (reset to origin/iiif or create)
         run: |
-          # Create branch if it does not exist
-          if git show-ref --quiet refs/heads/iiif; then
-            git checkout iiif
-          else
-            git checkout -b iiif
-          fi
+          set -e
+          # fetch remote refs
+          git fetch origin +refs/heads/iiif:refs/remotes/origin/iiif || true
           
-      - name: Ensure iiif branch is up to date
-        run: |
-          git fetch origin iiif || true
-          git pull --rebase origin iiif || true
+          # If origin/iiif exists, make local iiif exactly match it.
+          if git show-ref --verify --quiet refs/remotes/origin/iiif; then
+            git checkout -B iiif origin/iiif
+          else
+            # create iiif branch from default checkout (main) if remote branch doesn't exist
+            git checkout -B iiif
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -44,15 +44,22 @@ jobs:
       - name: Build IIIF Collections
         run: python iiif_aggregator/aggregate.py
 
-      - name: Commit changes
+      - name: Commit and push updates safely
+        env:
+          GIT_COMMITTER_NAME: "github-actions[bot]"
+          GIT_COMMITTER_EMAIL: "github-actions[bot]@users.noreply.github.com"
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add collections/*.json
-          # Only commit if there are changes
+          set -e
+          git config user.name "$GIT_COMMITTER_NAME"
+          git.config user.email "$GIT_COMMITTER_EMAIL" || true
+          # Only add the generated json files (avoid touching other content)
+          git add collections/*.json || true
+          
+          # If there are staged changes, commit and push with --force-with-lease
           if ! git diff --cached --quiet; then
             git commit -m "Automated update of IIIF collections"
-            git push --set-upstream origin iiif
+            # Force push but use --force-with-lease to avoid clobbering new remote commits
+            git push --force-with-lease origin iiif
           else
             echo "No changes to commit"
           fi
