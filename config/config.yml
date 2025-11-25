@@ -271,6 +271,8 @@ groups:
     name: Science Fiction and Fantasy Collection
     members:
       - live-to-build
+    thumbnail: "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg"
+    summary: "All Science Fiction and Fantasy Collections"
   texas:
     name: Chapman Texas Collection
     members:
