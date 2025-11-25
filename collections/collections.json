@@ -54,6 +54,26 @@
             }
         },
         {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/literature.json",
+            "label": {
+                "none": [
+                    "Literature Collections"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://library.tamu.edu//assets/images/eternal-passion.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "A IIIF Collection containing all collections related to Literature Collections"
+                ]
+            }
+        },
+        {
             "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/maps.json",
             "label": {
                 "none": [
@@ -103,7 +123,7 @@
             "type": "Collection",
             "thumbnail": [
                 {
-                    "id": "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg",
+                    "id": "https://library.tamu.edu/assets/images/time_of_resolve.png",
                     "type": "Image"
                 }
             ],
