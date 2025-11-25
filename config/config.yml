@@ -15,7 +15,7 @@ collections:
           - Endpapers
           - Decorated papers
     groups:
-      - book
+      - book-arts
       - all
     iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan"
     platform:
@@ -29,17 +29,17 @@ collections:
 groups:
   africana:
     name: Africana Studies
-    thumb: ""
+    thumbnail: ""
     members: []
   all:
     name: All Collections
-    thumb: ""
+    thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
     members:
       - berger
     summary: A IIIF Collection containing all Collections with no sorting
-  book:
+  book-arts:
     name: Book Arts
-    thumb: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
     members:
       - berger
     summary: A IIIF Collection containing all collections related to Book Arts

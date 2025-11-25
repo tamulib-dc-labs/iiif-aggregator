@@ -12,17 +12,18 @@ class IIIFAggregator:
         self.config = self._load_config()
         self.groups = self.config["groups"]
         self.collections_data = self.config["collections"]
-        self.root_collection = self._create_collection("collections", "Texas A&M Digital Collections")
+        self.root_collection = self._create_collection("collections", "Texas A&M Digital Collections", summary="All cultural heritage collections from TAMU")
 
     def _load_config(self):
         with open(self.config_path, "r") as f:
             return yaml.safe_load(f)
 
-    def _create_collection(self, id_suffix, label):
+    def _create_collection(self, id_suffix, label, summary):
         """Create a IIIF Collection object."""
         return Collection(
             id=f"{self.base_url}/{id_suffix}.json",
-            label=label
+            label=label,
+            summary=summary
         )
 
     def _add_member_references(self, sub_collection, members):
@@ -52,10 +53,17 @@ class IIIFAggregator:
 
             self.root_collection.make_collection_ref(
                 id=f"{self.base_url}/{group_key}.json",
-                label=details["name"]
+                label=details["name"],
+                summary=details["summary"],
+                thumbnail=[
+                    {
+                        "id": details["thumbnail"].strip(),
+                        "type": "Image"
+                    }
+                ]
             )
 
-            sub = self._create_collection(group_key, details["name"])
+            sub = self._create_collection(group_key, details["name"], details["summary"])
             self._add_member_references(sub, members)
             self._save_collection(sub, f"{group_key}.json")
 
