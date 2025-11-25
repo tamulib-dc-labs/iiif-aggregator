@@ -23,7 +23,8 @@ class IIIFAggregator:
         return Collection(
             id=f"{self.base_url}/{id_suffix}.json",
             label=label,
-            summary=summary
+            summary=summary,
+            type="Collection"
         )
 
     def _add_member_references(self, sub_collection, members):
@@ -36,7 +37,8 @@ class IIIFAggregator:
                 summary=info["summary"].strip(),
                 thumbnail=[
                     {"id": info["thumbnail"].strip(), "type": "Image"}
-                ]
+                ],
+                type="Collection"
             )
 
     def _save_collection(self, collection, filename):
@@ -60,7 +62,8 @@ class IIIFAggregator:
                         "id": details["thumbnail"].strip(),
                         "type": "Image"
                     }
-                ]
+                ],
+                type="Collection"
             )
 
             sub = self._create_collection(group_key, details["name"], details["summary"])
