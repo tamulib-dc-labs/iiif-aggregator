@@ -206,9 +206,10 @@ collections:
 groups:
   africana:
     name: Africana Studies
-    thumbnail: ""
     members:
       - cherokee-freedmen
+    summary: "All collections from Africana Studies"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg"
   all:
     name: All Collections
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
