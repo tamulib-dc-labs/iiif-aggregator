@@ -1,0 +1,37 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/scifi.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Science Fiction and Fantasy Collection"
+        ]
+    },
+    "summary": {
+        "none": [
+            "All Science Fiction and Fantasy Collections"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/scifi-exhibit-2021",
+            "label": {
+                "none": [
+                    "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change was an exhibit that took place in Cushing Library’s 2nd-floor Wendler Gallery from January 19 – June 30, 2021. It was dedicated to exploring many of the narratives that science fiction has created to help people understand and grapple with the existential threat of human-caused climate change."
+                ]
+            }
+        }
+    ]
+}

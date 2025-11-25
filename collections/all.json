@@ -34,6 +34,66 @@
             }
         },
         {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan_batch_a",
+            "label": {
+                "none": [
+                    "Berger-Cloonan Collection of Decorated Papers (Part 2?)"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/0d839939-d0c8-3948-8c37-f7c248c340de/full/332,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "The Berger-Cloonan Collection of Decorated Papers contains more than 20,000 items representing five centuries of paper production and decoration from across the globe and is one of the most extensive collections of its kind. Among its many strengths are eighteenth-century Dutch gilt papers, thousands of unique marbled and paste papers, Japanese Chiyogami and Katazome, historic watermarks, and scores of papermakers’ sample books.\nThe collection was built by Dr. Sidney E. Berger and Dr. Michèle V. Cloonan in support of their research and teaching interests, and was acquired by Texas A&M University Libraries in 2016. This digital collection contains non-copyrighted papers in the Berger-Cloonan Collection. It is offered here as a starting point for students and researchers who wish to become acquainted with the collection. Digitization of the collection is ongoing, and high-resolution scans of papers will be uploaded as they become available."
+                ]
+            }
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan_batch_3",
+            "label": {
+                "none": [
+                    "Berger-Cloonan Collection of Decorated Papers (Part 3?)"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/722d5220-437a-3fe3-bf42-670354ef9918/full/321,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "The Berger-Cloonan Collection of Decorated Papers contains more than 20,000 items representing five centuries of paper production and decoration from across the globe and is one of the most extensive collections of its kind. Among its many strengths are eighteenth-century Dutch gilt papers, thousands of unique marbled and paste papers, Japanese Chiyogami and Katazome, historic watermarks, and scores of papermakers’ sample books.\nThe collection was built by Dr. Sidney E. Berger and Dr. Michèle V. Cloonan in support of their research and teaching interests, and was acquired by Texas A&M University Libraries in 2016. This digital collection contains non-copyrighted papers in the Berger-Cloonan Collection. It is offered here as a starting point for students and researchers who wish to become acquainted with the collection. Digitization of the collection is ongoing, and high-resolution scans of papers will be uploaded as they become available."
+                ]
+            }
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan_batch_4",
+            "label": {
+                "none": [
+                    "Berger-Cloonan Collection of Decorated Papers (Part 4?)"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/6b21f9a9-0fa1-378c-803b-3c0994492df0/full/559,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "The Berger-Cloonan Collection of Decorated Papers contains more than 20,000 items representing five centuries of paper production and decoration from across the globe and is one of the most extensive collections of its kind. Among its many strengths are eighteenth-century Dutch gilt papers, thousands of unique marbled and paste papers, Japanese Chiyogami and Katazome, historic watermarks, and scores of papermakers’ sample books.\nThe collection was built by Dr. Sidney E. Berger and Dr. Michèle V. Cloonan in support of their research and teaching interests, and was acquired by Texas A&M University Libraries in 2016. This digital collection contains non-copyrighted papers in the Berger-Cloonan Collection. It is offered here as a starting point for students and researchers who wish to become acquainted with the collection. Digitization of the collection is ongoing, and high-resolution scans of papers will be uploaded as they become available."
+                ]
+            }
+        },
+        {
             "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/charting-texas",
             "label": {
                 "none": [
@@ -50,6 +110,46 @@
             "summary": {
                 "none": [
                     "This exhibition features maps and books, documenting several centuries of exploration and political competition for one specific area of North America — Texas. With advancements in geographic knowledge, surveying techniques, and printing technology, one can begin to see Texas taking its now familiar form from the earliest depictions in the 16th Century."
+                ]
+            }
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/cherokee-freedmen-corrected",
+            "label": {
+                "none": [
+                    "Cherokee Freedmen"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "This collection consists of written testimonies, letters, and affidavits related to over 30 applications of African Americans and their families that were denied enrollment as Cherokee Freedmen. The hearings were mostly conducted at Fort Gibson or Muskogee, Oklahoma by the United States Department of the Interior’s Commission to the Five Civilized Tribes (a.k.a. the Dawes Commission). Images of the original envelopes are included for most of the documents, which are dated from 1901 to 1907."
+                ]
+            }
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/scifi-exhibit-2021",
+            "label": {
+                "none": [
+                    "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change was an exhibit that took place in Cushing Library’s 2nd-floor Wendler Gallery from January 19 – June 30, 2021. It was dedicated to exploring many of the narratives that science fiction has created to help people understand and grapple with the existential threat of human-caused climate change."
                 ]
             }
         },

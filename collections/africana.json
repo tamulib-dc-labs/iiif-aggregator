@@ -1,0 +1,37 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/africana.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Africana Studies"
+        ]
+    },
+    "summary": {
+        "none": [
+            "All collections from Africana Studies"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/cherokee-freedmen-corrected",
+            "label": {
+                "none": [
+                    "Cherokee Freedmen"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "This collection consists of written testimonies, letters, and affidavits related to over 30 applications of African Americans and their families that were denied enrollment as Cherokee Freedmen. The hearings were mostly conducted at Fort Gibson or Muskogee, Oklahoma by the United States Department of the Interior’s Commission to the Five Civilized Tribes (a.k.a. the Dawes Commission). Images of the original envelopes are included for most of the documents, which are dated from 1901 to 1907."
+                ]
+            }
+        }
+    ]
+}

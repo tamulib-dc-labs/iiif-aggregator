@@ -14,6 +14,26 @@
     },
     "items": [
         {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/africana.json",
+            "label": {
+                "none": [
+                    "Africana Studies"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All collections from Africana Studies"
+                ]
+            }
+        },
+        {
             "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/all.json",
             "label": {
                 "none": [
@@ -94,6 +114,26 @@
             }
         },
         {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/scifi.json",
+            "label": {
+                "none": [
+                    "Science Fiction and Fantasy Collection"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All Science Fiction and Fantasy Collections"
+                ]
+            }
+        },
+        {
             "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/texas.json",
             "label": {
                 "none": [
@@ -103,7 +143,7 @@
             "type": "Collection",
             "thumbnail": [
                 {
-                    "id": "https://library.tamu.edu/assets/images/time_of_resolve.png",
+                    "id": "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg",
                     "type": "Image"
                 }
             ],
