@@ -44,6 +44,11 @@ jobs:
       - name: Build IIIF Collections
         run: python iiif_aggregator/aggregate.py
 
+      - name: List files in the  collections directory
+        run: |
+          echo "Files in collections/:"
+          ls -l collections
+
       - name: Commit and push updates safely
         env:
           GIT_COMMITTER_NAME: "github-actions[bot]"
