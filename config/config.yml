@@ -73,6 +73,21 @@ collections:
     notes:
       - ""
     thumbnail: "https://api.library.tamu.edu/iiif/2/21466074-c682-3cd4-ae1b-58ae9cef6d6d/full/full/0/default.jpg"
+  stephen-powys-two:
+    name: "Stephen Powys Marks London Collection: Part 2?"
+    summary: ""
+    curator: "Anton du Plessis"
+    groups:
+      - maps
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection"
+    platform:
+      name: Spotlight
+      url: "https://spotlight.library.tamu.edu/spotlight/london-collection"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://api.library.tamu.edu/iiif/2/30066df1-4152-3352-9b77-a1a8902f31cf/full/379,/0/default.jpg"
   nicholas-basbanes:
     name: "Nicholas A. Basbanes Collection - The Eternal Passion"
     summary: "Commemorates the 25th anniversary of Nicholas A. Basbanes' seminal work on bibliomania and book culture. Drawing from Basbanes' extensive archives, the collection explores his research, writing, and its reception. Complemented by annotated drafts, letters, inscribed editions, and meterials from Basbanes' broader career, the collection offers a rich portrait of his contributions to literary journalism and the enduring fascination with books and their collectors."
@@ -101,6 +116,7 @@ groups:
       - charting-texas
       - nicholas-basbanes
       - stephen-powys
+      - stephen-powys-two
       - time-to-resolve
     summary: A IIIF Collection containing all Collections with no sorting
   book-arts:
@@ -126,6 +142,7 @@ groups:
     members:
       - charting-texas
       - stephen-powys
+      - stephen-powys-two
     summary: "All map collections from University Archives"
     thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
   mexican:
