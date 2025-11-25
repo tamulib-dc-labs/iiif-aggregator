@@ -1,0 +1,78 @@
+parent:
+  label: Texas A&M University Libraries Digital Collections
+  thumbnail: "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png"
+  summary: "A IIIF Collection containing all cultural heritage collections from Texas A&M Libraries"
+collections:
+  berger:
+    name: Berger-Cloonan Collection of Decorated Papers
+    summary: |
+      The Berger-Cloonan Collection of Decorated Papers contains more than 20,000 items representing five centuries of paper production and decoration from across the globe and is one of the most extensive collections of its kind. Among its many strengths are eighteenth-century Dutch gilt papers, thousands of unique marbled and paste papers, Japanese Chiyogami and Katazome, historic watermarks, and scores of papermakers’ sample books.
+      The collection was built by Dr. Sidney E. Berger and Dr. Michèle V. Cloonan in support of their research and teaching interests, and was acquired by Texas A&M University Libraries in 2016. This digital collection contains non-copyrighted papers in the Berger-Cloonan Collection. It is offered here as a starting point for students and researchers who wish to become acquainted with the collection. Digitization of the collection is ongoing, and high-resolution scans of papers will be uploaded as they become available.
+    curator: Maddie Keyser
+    metadata:
+      - subjects:
+          - Marbled papers
+          - Endpapers
+          - Decorated papers
+    groups:
+      - book
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan"
+    platform:
+      name: SAGE
+      url: "https://library.tamu.edu/discovery/discovery-context/berger-cloonan?direction=ASC&sort=title"
+      file_location: fedora
+    notes:
+      - There are many parts of this that should probably be combined at some point.
+      - There are also private parts of the collection that are not pulled into the IIIF collection at
+    thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
+groups:
+  africana:
+    name: Africana Studies
+    thumb: ""
+    members: []
+  all:
+    name: All Collections
+    thumb: ""
+    members:
+      - berger
+    summary: A IIIF Collection containing all Collections with no sorting
+  book:
+    name: Book Arts
+    thumb: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
+    members:
+      - berger
+    summary: A IIIF Collection containing all collections related to Book Arts
+  child:
+    name: Children’s Collection
+    members: []
+  dykes:
+    name: Dykes Rangeland Collection
+    members: []
+  literature:
+    name: Literature Collections
+    members: []
+  maps:
+    name: Map Collections
+    members: []
+  mexican:
+    name: Colonial Mexican Collection
+    members: []
+  military:
+    name: Military Collection
+    members: []
+  oral:
+    name: Interviews and Oral Histories Collection
+    members: []
+  other:
+    name: Other Collections
+    members: []
+  scifi:
+    name: Science Fiction and Fantasy Collection
+    members: []
+  texas:
+    name: Chapman Texas Collection
+    members: []
+  ua:
+    name: University Archives
+    members: []
