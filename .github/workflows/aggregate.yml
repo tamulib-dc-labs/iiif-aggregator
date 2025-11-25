@@ -4,67 +4,46 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "0 2 * * *"
+
+# Prevent concurrent runs from causing conflicts
+concurrency:
+  group: iiif-collections
+  cancel-in-progress: false
 
 jobs:
   build-and-commit:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository (full history)
+      # Step 1: checkout the iiif branch
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          ref: iiif
+          persist-credentials: true
           fetch-depth: 0
 
-      - name: Prepare iiif branch (reset to origin/iiif or create)
-        run: |
-          set -e
-          # fetch remote refs
-          git fetch origin +refs/heads/iiif:refs/remotes/origin/iiif || true
-          
-          # If origin/iiif exists, make local iiif exactly match it.
-          if git show-ref --verify --quiet refs/remotes/origin/iiif; then
-            git checkout -B iiif origin/iiif
-          else
-            # create iiif branch from default checkout (main) if remote branch doesn't exist
-            git checkout -B iiif
-          fi
-
+      # Step 2: set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
+      # Step 3: install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pyyaml iiif-prezi3
 
+      # Step 4: run the aggregator
       - name: Build IIIF Collections
-        run: python iiif_aggregator/aggregate.py
+        run: python scripts/build_collections.py
 
-      - name: List files in the  collections directory
-        run: |
-          echo "Files in collections/:"
-          ls -l collections
-
-      - name: Commit and push updates safely
-        env:
-          GIT_COMMITTER_NAME: "github-actions[bot]"
-          GIT_COMMITTER_EMAIL: "github-actions[bot]@users.noreply.github.com"
-        run: |
-          set -e
-          git config user.name "$GIT_COMMITTER_NAME"
-          git config user.email "$GIT_COMMITTER_EMAIL" || true
-          # Only add the generated json files (avoid touching other content)
-          git add collections/*.json || true
-          
-          # If there are staged changes, commit and push with --force-with-lease
-          if ! git diff --cached --quiet; then
-            git commit -m "Automated update of IIIF collections"
-            # Force push but use --force-with-lease to avoid clobbering new remote commits
-            git push --force-with-lease origin iiif
-          else
-            echo "No changes to commit"
-          fi
+      # Step 5: commit and push changes to iiif branch
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated update of IIIF collections"
+          file_pattern: "collections/*.json"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          branch: iiif
