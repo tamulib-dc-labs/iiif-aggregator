@@ -26,6 +26,38 @@ collections:
       - There are many parts of this that should probably be combined at some point.
       - There are also private parts of the collection that are not pulled into the IIIF collection at
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
+  time-to-resolve:
+    name: "A Time of Resolve: Texas A&M during the Great Depression"
+    summary: |
+      "A Time of Resolve: Texas A&M during the Great Depression," was an exhibit at Texas A&M's Cushing Memorial Library and Archives that ran September 7, 2018 through February 22, 2019.
+    curator: "Unknown"
+    groups:
+      - ua
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/time_of_resolve"
+    platform:
+      name: SAGE
+      url: "https://library.tamu.edu/discovery/discovery-context/time-of-resolve?direction=ASC&sort=title"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
+  charting-texas:
+    name: "Charting Texas"
+    summary: This exhibition features maps and books, documenting several centuries of exploration and political competition for one specific area of North America — Texas. With advancements in geographic knowledge, surveying techniques, and printing technology, one can begin to see Texas taking its now familiar form from the earliest depictions in the 16th Century.
+    curator: "Anton du Plessis"
+    groups:
+      - maps
+      - texas
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/charting-texas"
+    platform:
+      name: Spotlight
+      url: "https://spotlight.library.tamu.edu/spotlight/charting-texas"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
 groups:
   africana:
     name: Africana Studies
@@ -36,6 +68,8 @@ groups:
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
     members:
       - berger
+      - charting-texas
+      - time-to-resolve
     summary: A IIIF Collection containing all Collections with no sorting
   book-arts:
     name: Book Arts
@@ -54,7 +88,10 @@ groups:
     members: []
   maps:
     name: Map Collections
-    members: []
+    members:
+      - charting-texas
+    summary: "All map collections from University Archives"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
   mexican:
     name: Colonial Mexican Collection
     members: []
@@ -72,7 +109,13 @@ groups:
     members: []
   texas:
     name: Chapman Texas Collection
-    members: []
+    members:
+      - charting-texas
+    summary: "All digital Collections related to the Chapman Texas Collection"
+    thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
   ua:
     name: University Archives
-    members: []
+    members:
+      - time-to-resolve
+    summary: "All collections from University Archives"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
