@@ -32,6 +32,26 @@
                     "This exhibition features maps and books, documenting several centuries of exploration and political competition for one specific area of North America — Texas. With advancements in geographic knowledge, surveying techniques, and printing technology, one can begin to see Texas taking its now familiar form from the earliest depictions in the 16th Century."
                 ]
             }
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/bryan-150",
+            "label": {
+                "none": [
+                    "150 Years and Counting: Celebrating 150 Years of the City of Bryan, Texas"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/9af7275a-e2ef-3925-8647-4a26a5c2b9b6/full/185,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "On November 29, 1871 the City of Bryan officially incorporated. Shortly after incorporation, a public school system was established, a bridge was built across the Navasota River to support local commerce, and a money-lending office was opened. In 2021, Cushing Memorial Library & Archives celebrates the 150th anniversary of the City of Bryan's incorporation through materials we've collected through the years. This digital exhibit highlights the architecture and growth of the city, from a rural settlement to a flourishing city and seat of Brazos County."
+                ]
+            }
         }
     ]
 }

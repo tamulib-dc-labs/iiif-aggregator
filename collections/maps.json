@@ -34,6 +34,26 @@
             }
         },
         {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/brazos-maps",
+            "label": {
+                "none": [
+                    "Maps of Brazos County, Texas"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/481f5ace-ba3e-39f3-a4e6-27eeeed3ba78/full/313,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "This digital collection features maps of Brazos County, the cities of College Station and Bryan, and the campus of Texas A&M University."
+                ]
+            }
+        },
+        {
             "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/Stephen_Powys_Marks_London_Collection",
             "label": {
                 "none": [
@@ -60,6 +80,22 @@
             "thumbnail": [
                 {
                     "id": "https://api.library.tamu.edu/iiif/2/30066df1-4152-3352-9b77-a1a8902f31cf/full/379,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": ""
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-maps-batch-2",
+            "label": {
+                "none": [
+                    "Stephen Powys Marks London Collection: Part 3?"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/d2fa81db-fac2-37dc-8c7c-ccfbc203e567/full/261,/0/default.jpg",
                     "type": "Image"
                 }
             ],

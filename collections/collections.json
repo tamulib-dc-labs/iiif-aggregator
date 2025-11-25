@@ -14,26 +14,6 @@
     },
     "items": [
         {
-            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/africana.json",
-            "label": {
-                "none": [
-                    "Africana Studies"
-                ]
-            },
-            "type": "Collection",
-            "thumbnail": [
-                {
-                    "id": "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg",
-                    "type": "Image"
-                }
-            ],
-            "summary": {
-                "none": [
-                    "All collections from Africana Studies"
-                ]
-            }
-        },
-        {
             "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/all.json",
             "label": {
                 "none": [
@@ -50,6 +30,26 @@
             "summary": {
                 "none": [
                     "A IIIF Collection containing all Collections with no sorting"
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/africana.json",
+            "label": {
+                "none": [
+                    "Africana Studies"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All collections from Africana Studies"
                 ]
             }
         },
