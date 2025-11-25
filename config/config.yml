@@ -26,22 +26,75 @@ collections:
       - There are many parts of this that should probably be combined at some point.
       - There are also private parts of the collection that are not pulled into the IIIF collection at
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
-  time-to-resolve:
-    name: "A Time of Resolve: Texas A&M during the Great Depression"
+  berger-two:
+    name: Berger-Cloonan Collection of Decorated Papers (Part 2?)
     summary: |
-      "A Time of Resolve: Texas A&M during the Great Depression," was an exhibit at Texas A&M's Cushing Memorial Library and Archives that ran September 7, 2018 through February 22, 2019.
-    curator: "Unknown"
+      The Berger-Cloonan Collection of Decorated Papers contains more than 20,000 items representing five centuries of paper production and decoration from across the globe and is one of the most extensive collections of its kind. Among its many strengths are eighteenth-century Dutch gilt papers, thousands of unique marbled and paste papers, Japanese Chiyogami and Katazome, historic watermarks, and scores of papermakers’ sample books.
+      The collection was built by Dr. Sidney E. Berger and Dr. Michèle V. Cloonan in support of their research and teaching interests, and was acquired by Texas A&M University Libraries in 2016. This digital collection contains non-copyrighted papers in the Berger-Cloonan Collection. It is offered here as a starting point for students and researchers who wish to become acquainted with the collection. Digitization of the collection is ongoing, and high-resolution scans of papers will be uploaded as they become available.
+    curator: Maddie Keyser
+    metadata:
+      - subjects:
+          - Marbled papers
+          - Endpapers
+          - Decorated papers
     groups:
-      - ua
+      - book-arts
       - all
-    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/time_of_resolve"
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan_batch_a"
     platform:
       name: SAGE
-      url: "https://library.tamu.edu/discovery/discovery-context/time-of-resolve?direction=ASC&sort=title"
+      url: "https://library.tamu.edu/discovery/discovery-context/berger-cloonan?direction=ASC&sort=title"
       file_location: fedora
     notes:
-      - ""
-    thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
+      - There are many parts of this that should probably be combined at some point.
+      - There are also private parts of the collection that are not pulled into the IIIF collection at
+    thumbnail: "https://api.library.tamu.edu/iiif/2/0d839939-d0c8-3948-8c37-f7c248c340de/full/332,/0/default.jpg"
+  berger-three:
+    name: Berger-Cloonan Collection of Decorated Papers (Part 3?)
+    summary: |
+      The Berger-Cloonan Collection of Decorated Papers contains more than 20,000 items representing five centuries of paper production and decoration from across the globe and is one of the most extensive collections of its kind. Among its many strengths are eighteenth-century Dutch gilt papers, thousands of unique marbled and paste papers, Japanese Chiyogami and Katazome, historic watermarks, and scores of papermakers’ sample books.
+      The collection was built by Dr. Sidney E. Berger and Dr. Michèle V. Cloonan in support of their research and teaching interests, and was acquired by Texas A&M University Libraries in 2016. This digital collection contains non-copyrighted papers in the Berger-Cloonan Collection. It is offered here as a starting point for students and researchers who wish to become acquainted with the collection. Digitization of the collection is ongoing, and high-resolution scans of papers will be uploaded as they become available.
+    curator: Maddie Keyser
+    metadata:
+      - subjects:
+          - Marbled papers
+          - Endpapers
+          - Decorated papers
+    groups:
+      - book-arts
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan_batch_3"
+    platform:
+      name: SAGE
+      url: "https://library.tamu.edu/discovery/discovery-context/berger-cloonan?direction=ASC&sort=title"
+      file_location: fedora
+    notes:
+      - There are many parts of this that should probably be combined at some point.
+      - There are also private parts of the collection that are not pulled into the IIIF collection at
+    thumbnail: "https://api.library.tamu.edu/iiif/2/722d5220-437a-3fe3-bf42-670354ef9918/full/321,/0/default.jpg"
+  berger-four:
+    name: Berger-Cloonan Collection of Decorated Papers (Part 4?)
+    summary: |
+      The Berger-Cloonan Collection of Decorated Papers contains more than 20,000 items representing five centuries of paper production and decoration from across the globe and is one of the most extensive collections of its kind. Among its many strengths are eighteenth-century Dutch gilt papers, thousands of unique marbled and paste papers, Japanese Chiyogami and Katazome, historic watermarks, and scores of papermakers’ sample books.
+      The collection was built by Dr. Sidney E. Berger and Dr. Michèle V. Cloonan in support of their research and teaching interests, and was acquired by Texas A&M University Libraries in 2016. This digital collection contains non-copyrighted papers in the Berger-Cloonan Collection. It is offered here as a starting point for students and researchers who wish to become acquainted with the collection. Digitization of the collection is ongoing, and high-resolution scans of papers will be uploaded as they become available.
+    curator: Maddie Keyser
+    metadata:
+      - subjects:
+          - Marbled papers
+          - Endpapers
+          - Decorated papers
+    groups:
+      - book-arts
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan_batch_4"
+    platform:
+      name: SAGE
+      url: "https://library.tamu.edu/discovery/discovery-context/berger-cloonan?direction=ASC&sort=title"
+      file_location: fedora
+    notes:
+      - There are many parts of this that should probably be combined at some point.
+      - There are also private parts of the collection that are not pulled into the IIIF collection at
+    thumbnail: "https://api.library.tamu.edu/iiif/2/6b21f9a9-0fa1-378c-803b-3c0994492df0/full/559,/0/default.jpg"
   charting-texas:
     name: "Charting Texas"
     summary: This exhibition features maps and books, documenting several centuries of exploration and political competition for one specific area of North America — Texas. With advancements in geographic knowledge, surveying techniques, and printing technology, one can begin to see Texas taking its now familiar form from the earliest depictions in the 16th Century.
@@ -58,6 +111,52 @@ collections:
     notes:
       - ""
     thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
+  cherokee-freedmen:
+    name: "Cherokee Freedmen"
+    summary: This collection consists of written testimonies, letters, and affidavits related to over 30 applications of African Americans and their families that were denied enrollment as Cherokee Freedmen. The hearings were mostly conducted at Fort Gibson or Muskogee, Oklahoma by the United States Department of the Interior’s Commission to the Five Civilized Tribes (a.k.a. the Dawes Commission). Images of the original envelopes are included for most of the documents, which are dated from 1901 to 1907.
+    curator: "Jeremy Brett"
+    groups:
+      - africana
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/cherokee-freedmen-corrected"
+    platform:
+      name: "N/A"
+      url: "N/A"
+      file_location: fedora
+    notes:
+      - "This collection is technically not online yet."
+      - "This should pull from From the Page Collection"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg"
+  live-to-build:
+    name: "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change"
+    summary: "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change was an exhibit that took place in Cushing Library’s 2nd-floor Wendler Gallery from January 19 – June 30, 2021. It was dedicated to exploring many of the narratives that science fiction has created to help people understand and grapple with the existential threat of human-caused climate change."
+    curator: Jeremy Brett
+    groups:
+      - scifi
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/scifi-exhibit-2021"
+    platform:
+      name: Spotlight
+      url: "https://spotlight.library.tamu.edu/spotlight/scifi-exhibit-2021"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg"
+  nicholas-basbanes:
+    name: "Nicholas A. Basbanes Collection - The Eternal Passion"
+    summary: "Commemorates the 25th anniversary of Nicholas A. Basbanes' seminal work on bibliomania and book culture. Drawing from Basbanes' extensive archives, the collection explores his research, writing, and its reception. Complemented by annotated drafts, letters, inscribed editions, and meterials from Basbanes' broader career, the collection offers a rich portrait of his contributions to literary journalism and the enduring fascination with books and their collectors."
+    curator: "Beth Kilmarx"
+    groups:
+      - literature
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/BasbanesEternalPassion"
+    platform:
+      name: SAGE
+      url: "https://library.tamu.edu/discovery/discovery-context/basbanes-eternal-passion?direction=ASC"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://library.tamu.edu//assets/images/eternal-passion.jpg"
   stephen-powys:
     name: "Stephen Powys Marks London Collection"
     summary: ""
@@ -88,32 +187,40 @@ collections:
     notes:
       - ""
     thumbnail: "https://api.library.tamu.edu/iiif/2/30066df1-4152-3352-9b77-a1a8902f31cf/full/379,/0/default.jpg"
-  nicholas-basbanes:
-    name: "Nicholas A. Basbanes Collection - The Eternal Passion"
-    summary: "Commemorates the 25th anniversary of Nicholas A. Basbanes' seminal work on bibliomania and book culture. Drawing from Basbanes' extensive archives, the collection explores his research, writing, and its reception. Complemented by annotated drafts, letters, inscribed editions, and meterials from Basbanes' broader career, the collection offers a rich portrait of his contributions to literary journalism and the enduring fascination with books and their collectors."
-    curator: "Beth Kilmarx"
+  time-to-resolve:
+    name: "A Time of Resolve: Texas A&M during the Great Depression"
+    summary: |
+      "A Time of Resolve: Texas A&M during the Great Depression," was an exhibit at Texas A&M's Cushing Memorial Library and Archives that ran September 7, 2018 through February 22, 2019.
+    curator: "Unknown"
     groups:
-      - literature
+      - ua
       - all
-    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/BasbanesEternalPassion"
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/time_of_resolve"
     platform:
       name: SAGE
-      url: "https://library.tamu.edu/discovery/discovery-context/basbanes-eternal-passion?direction=ASC"
+      url: "https://library.tamu.edu/discovery/discovery-context/time-of-resolve?direction=ASC&sort=title"
       file_location: fedora
     notes:
       - ""
-    thumbnail: "https://library.tamu.edu//assets/images/eternal-passion.jpg"
+    thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
 groups:
   africana:
     name: Africana Studies
-    thumbnail: ""
-    members: []
+    members:
+      - cherokee-freedmen
+    summary: "All collections from Africana Studies"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg"
   all:
     name: All Collections
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
     members:
       - berger
+      - berger-two
+      - berger-three
+      - berger-four
       - charting-texas
+      - cherokee-freedmen
+      - live-to-build
       - nicholas-basbanes
       - stephen-powys
       - stephen-powys-two
@@ -124,6 +231,9 @@ groups:
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
     members:
       - berger
+      - berger-two
+      - berger-three
+      - berger-four
     summary: A IIIF Collection containing all collections related to Book Arts
   child:
     name: Children’s Collection
@@ -159,13 +269,16 @@ groups:
     members: []
   scifi:
     name: Science Fiction and Fantasy Collection
-    members: []
+    members:
+      - live-to-build
+    thumbnail: "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg"
+    summary: "All Science Fiction and Fantasy Collections"
   texas:
     name: Chapman Texas Collection
     members:
       - charting-texas
     summary: "All digital Collections related to the Chapman Texas Collection"
-    thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
   ua:
     name: University Archives
     members:
