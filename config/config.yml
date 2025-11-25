@@ -73,6 +73,21 @@ collections:
     notes:
       - ""
     thumbnail: "https://api.library.tamu.edu/iiif/2/21466074-c682-3cd4-ae1b-58ae9cef6d6d/full/full/0/default.jpg"
+  nicholas-basbanes:
+    name: "Nicholas A. Basbanes Collection - The Eternal Passion"
+    summary: "Commemorates the 25th anniversary of Nicholas A. Basbanes' seminal work on bibliomania and book culture. Drawing from Basbanes' extensive archives, the collection explores his research, writing, and its reception. Complemented by annotated drafts, letters, inscribed editions, and meterials from Basbanes' broader career, the collection offers a rich portrait of his contributions to literary journalism and the enduring fascination with books and their collectors."
+    curator: "Beth Kilmarx"
+    groups:
+      - literature
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/BasbanesEternalPassion"
+    platform:
+      name: SAGE
+      url: "https://library.tamu.edu/discovery/discovery-context/basbanes-eternal-passion?direction=ASC"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://library.tamu.edu//assets/images/eternal-passion.jpg"
 groups:
   africana:
     name: Africana Studies
@@ -84,6 +99,7 @@ groups:
     members:
       - berger
       - charting-texas
+      - nicholas-basbanes
       - stephen-powys
       - time-to-resolve
     summary: A IIIF Collection containing all Collections with no sorting
@@ -101,7 +117,10 @@ groups:
     members: []
   literature:
     name: Literature Collections
-    members: []
+    members:
+      - nicholas-basbanes
+    summary: A IIIF Collection containing all collections related to Literature Collections
+    thumbnail: "https://library.tamu.edu//assets/images/eternal-passion.jpg"
   maps:
     name: Map Collections
     members:
@@ -135,4 +154,4 @@ groups:
     members:
       - time-to-resolve
     summary: "All collections from University Archives"
-    thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
+    thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
