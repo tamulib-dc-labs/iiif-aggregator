@@ -1,0 +1,37 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/ua.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "University Archives"
+        ]
+    },
+    "summary": {
+        "none": [
+            "All collections from University Archives"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/time_of_resolve",
+            "label": {
+                "none": [
+                    "A Time of Resolve: Texas A&M during the Great Depression"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://library.tamu.edu/assets/images/time_of_resolve.png",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "\"A Time of Resolve: Texas A&M during the Great Depression,\" was an exhibit at Texas A&M's Cushing Memorial Library and Archives that ran September 7, 2018 through February 22, 2019."
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/all.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "All Collections"
+        ]
+    },
+    "summary": {
+        "none": [
+            "A IIIF Collection containing all Collections with no sorting"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan",
+            "label": {
+                "none": [
+                    "Berger-Cloonan Collection of Decorated Papers"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "The Berger-Cloonan Collection of Decorated Papers contains more than 20,000 items representing five centuries of paper production and decoration from across the globe and is one of the most extensive collections of its kind. Among its many strengths are eighteenth-century Dutch gilt papers, thousands of unique marbled and paste papers, Japanese Chiyogami and Katazome, historic watermarks, and scores of papermakers’ sample books.\nThe collection was built by Dr. Sidney E. Berger and Dr. Michèle V. Cloonan in support of their research and teaching interests, and was acquired by Texas A&M University Libraries in 2016. This digital collection contains non-copyrighted papers in the Berger-Cloonan Collection. It is offered here as a starting point for students and researchers who wish to become acquainted with the collection. Digitization of the collection is ongoing, and high-resolution scans of papers will be uploaded as they become available."
+                ]
+            }
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/charting-texas",
+            "label": {
+                "none": [
+                    "Charting Texas"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "This exhibition features maps and books, documenting several centuries of exploration and political competition for one specific area of North America — Texas. With advancements in geographic knowledge, surveying techniques, and printing technology, one can begin to see Texas taking its now familiar form from the earliest depictions in the 16th Century."
+                ]
+            }
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/Stephen_Powys_Marks_London_Collection",
+            "label": {
+                "none": [
+                    "Stephen Powys Marks London Collection"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/21466074-c682-3cd4-ae1b-58ae9cef6d6d/full/full/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": ""
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/time_of_resolve",
+            "label": {
+                "none": [
+                    "A Time of Resolve: Texas A&M during the Great Depression"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://library.tamu.edu/assets/images/time_of_resolve.png",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "\"A Time of Resolve: Texas A&M during the Great Depression,\" was an exhibit at Texas A&M's Cushing Memorial Library and Archives that ran September 7, 2018 through February 22, 2019."
+                ]
+            }
+        }
+    ]
+}

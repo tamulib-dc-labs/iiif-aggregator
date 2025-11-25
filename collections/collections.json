@@ -1,0 +1,117 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/collections.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Texas A&M Digital Collections"
+        ]
+    },
+    "summary": {
+        "none": [
+            "All cultural heritage collections from TAMU"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/all.json",
+            "label": {
+                "none": [
+                    "All Collections"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "A IIIF Collection containing all Collections with no sorting"
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/book-arts.json",
+            "label": {
+                "none": [
+                    "Book Arts"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "A IIIF Collection containing all collections related to Book Arts"
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/maps.json",
+            "label": {
+                "none": [
+                    "Map Collections"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All map collections from University Archives"
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/texas.json",
+            "label": {
+                "none": [
+                    "Chapman Texas Collection"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://library.tamu.edu/assets/images/time_of_resolve.png",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All digital Collections related to the Chapman Texas Collection"
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/ua.json",
+            "label": {
+                "none": [
+                    "University Archives"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All collections from University Archives"
+                ]
+            }
+        }
+    ]
+}
