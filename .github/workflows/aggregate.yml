@@ -47,7 +47,7 @@ jobs:
           # Only commit if there are changes
           if ! git diff --cached --quiet; then
             git commit -m "Automated update of IIIF collections"
-            git push
+            git push --set-upstream origin iiif
           else
             echo "No changes to commit"
           fi
