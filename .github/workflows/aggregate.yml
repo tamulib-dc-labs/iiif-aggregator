@@ -25,6 +25,11 @@ jobs:
           else
             git checkout -b iiif
           fi
+          
+      - name: Ensure iiif branch is up to date
+        run: |
+          git fetch origin iiif || true
+          git pull --rebase origin iiif || true
 
       - name: Set up Python
         uses: actions/setup-python@v4
