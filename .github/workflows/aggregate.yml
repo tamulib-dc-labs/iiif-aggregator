@@ -36,7 +36,7 @@ jobs:
 
       # Step 4: run the aggregator
       - name: Build IIIF Collections
-        run: python scripts/build_collections.py
+        run: python iiif_aggregator/aggregate.py
 
       # Step 5: commit and push changes to iiif branch
       - name: Commit changes
