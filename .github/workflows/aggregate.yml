@@ -51,7 +51,7 @@ jobs:
         run: |
           set -e
           git config user.name "$GIT_COMMITTER_NAME"
-          git.config user.email "$GIT_COMMITTER_EMAIL" || true
+          git config user.email "$GIT_COMMITTER_EMAIL" || true
           # Only add the generated json files (avoid touching other content)
           git add collections/*.json || true
           
