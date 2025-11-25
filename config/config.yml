@@ -95,6 +95,21 @@ collections:
       - There are many parts of this that should probably be combined at some point.
       - There are also private parts of the collection that are not pulled into the IIIF collection at
     thumbnail: "https://api.library.tamu.edu/iiif/2/6b21f9a9-0fa1-378c-803b-3c0994492df0/full/559,/0/default.jpg"
+  bryan-150:
+    name: "150 Years and Counting: Celebrating 150 Years of the City of Bryan, Texas"
+    summary: "On November 29, 1871 the City of Bryan officially incorporated. Shortly after incorporation, a public school system was established, a bridge was built across the Navasota River to support local commerce, and a money-lending office was opened. In 2021, Cushing Memorial Library & Archives celebrates the 150th anniversary of the City of Bryan's incorporation through materials we've collected through the years. This digital exhibit highlights the architecture and growth of the city, from a rural settlement to a flourishing city and seat of Brazos County."
+    curator: "?"
+    groups:
+      - texas
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/bryan-150"
+    platform:
+      name: Spotlight
+      url: "https://spotlight.library.tamu.edu/spotlight/bryan-150-exhibit"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://api.library.tamu.edu/iiif/2/9af7275a-e2ef-3925-8647-4a26a5c2b9b6/full/185,/0/default.jpg"
   charting-texas:
     name: "Charting Texas"
     summary: This exhibition features maps and books, documenting several centuries of exploration and political competition for one specific area of North America — Texas. With advancements in geographic knowledge, surveying techniques, and printing technology, one can begin to see Texas taking its now familiar form from the earliest depictions in the 16th Century.
@@ -142,6 +157,21 @@ collections:
     notes:
       - ""
     thumbnail: "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg"
+  maps-of-brazos:
+    name: "Maps of Brazos County, Texas"
+    summary: "This digital collection features maps of Brazos County, the cities of College Station and Bryan, and the campus of Texas A&M University."
+    curator: "Anton du Plessis"
+    groups:
+      - maps
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/brazos-maps"
+    platform:
+      name: SAGE
+      url: "https://library.tamu.edu/discovery/discovery-context/brazos-maps?direction=ASC&sort=title"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://api.library.tamu.edu/iiif/2/481f5ace-ba3e-39f3-a4e6-27eeeed3ba78/full/313,/0/default.jpg"
   nicholas-basbanes:
     name: "Nicholas A. Basbanes Collection - The Eternal Passion"
     summary: "Commemorates the 25th anniversary of Nicholas A. Basbanes' seminal work on bibliomania and book culture. Drawing from Basbanes' extensive archives, the collection explores his research, writing, and its reception. Complemented by annotated drafts, letters, inscribed editions, and meterials from Basbanes' broader career, the collection offers a rich portrait of his contributions to literary journalism and the enduring fascination with books and their collectors."
@@ -187,6 +217,21 @@ collections:
     notes:
       - ""
     thumbnail: "https://api.library.tamu.edu/iiif/2/30066df1-4152-3352-9b77-a1a8902f31cf/full/379,/0/default.jpg"
+  stephen-powys-three:
+    name: "Stephen Powys Marks London Collection: Part 3?"
+    summary: ""
+    curator: "Anton du Plessis"
+    groups:
+      - maps
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-maps-batch-2"
+    platform:
+      name: Spotlight
+      url: "https://spotlight.library.tamu.edu/spotlight/london-collection"
+      file_location: fedora
+    notes:
+      - "Not sure if this is unique"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/d2fa81db-fac2-37dc-8c7c-ccfbc203e567/full/261,/0/default.jpg"
   time-to-resolve:
     name: "A Time of Resolve: Texas A&M during the Great Depression"
     summary: |
@@ -204,12 +249,6 @@ collections:
       - ""
     thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
 groups:
-  africana:
-    name: Africana Studies
-    members:
-      - cherokee-freedmen
-    summary: "All collections from Africana Studies"
-    thumbnail: "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg"
   all:
     name: All Collections
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
@@ -218,14 +257,23 @@ groups:
       - berger-two
       - berger-three
       - berger-four
+      - bryan-150
       - charting-texas
       - cherokee-freedmen
       - live-to-build
+      - maps-of-brazos
       - nicholas-basbanes
       - stephen-powys
       - stephen-powys-two
+      - stephen-powys-three
       - time-to-resolve
     summary: A IIIF Collection containing all Collections with no sorting
+  africana:
+    name: Africana Studies
+    members:
+      - cherokee-freedmen
+    summary: "All collections from Africana Studies"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg"
   book-arts:
     name: Book Arts
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
@@ -251,8 +299,10 @@ groups:
     name: Map Collections
     members:
       - charting-texas
+      - maps-of-brazos
       - stephen-powys
       - stephen-powys-two
+      - stephen-powys-three
     summary: "All map collections from University Archives"
     thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
   mexican:
@@ -277,6 +327,7 @@ groups:
     name: Chapman Texas Collection
     members:
       - charting-texas
+      - bryan-150
     summary: "All digital Collections related to the Chapman Texas Collection"
     thumbnail: "https://api.library.tamu.edu/iiif/2/2d58b22f-688a-3388-b1d8-73251150ead4/full/full/0/default.jpg"
   ua:
