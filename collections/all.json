@@ -154,6 +154,26 @@
             }
         },
         {
+            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/dwg.json",
+            "label": {
+                "none": [
+                    "Dallas Women's Gallery Oral Histories"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://avalon.library.tamu.edu/collections/xp68kg37h/poster",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "This collection features video oral histories that recount the story of the Dallas Women’s Gallery, an artist-run space founded in 1975 that opened new doors for women and emerging artists in Texas. The interviews illuminate the creativity, resilience, and impact of a landmark yet often overlooked chapter in the state’s art history."
+                ]
+            }
+        },
+        {
             "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/scifi-exhibit-2021",
             "label": {
                 "none": [
@@ -210,6 +230,26 @@
             "summary": {
                 "none": [
                     "Commemorates the 25th anniversary of Nicholas A. Basbanes' seminal work on bibliomania and book culture. Drawing from Basbanes' extensive archives, the collection explores his research, writing, and its reception. Complemented by annotated drafts, letters, inscribed editions, and meterials from Basbanes' broader career, the collection offers a rich portrait of his contributions to literary journalism and the enduring fascination with books and their collectors."
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/scifiradio.json",
+            "label": {
+                "none": [
+                    "Science Fiction Radio Show Collection"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://avalon.library.tamu.edu/collections/vd66w0068/poster",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "This collection features episodes of The Science Fiction Radio Show, which included interviews with authors, scholars, and other notable figures in the science fiction and fantasy fields, as well as discussions among the hosts on topics such as computers, L. Frank Baum, and science fiction music. The show was created by David Carson, Daryl Lane, Keith Johnson, and David Crews with William Vernon joining the show early on. The show began airing in June 1980 from Odessa College in Odessa, Texas, and continued through its final broadcast on December 31, 1983."
                 ]
             }
         },

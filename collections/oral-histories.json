@@ -1,35 +1,35 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/scifi.json",
+    "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/oral-histories.json",
     "type": "Collection",
     "label": {
         "none": [
-            "Science Fiction and Fantasy Collection"
+            "Interviews and Oral Histories Collection"
         ]
     },
     "summary": {
         "none": [
-            "All Science Fiction and Fantasy Collections"
+            "All Oral History and Interview Collections from Texas A&M University"
         ]
     },
     "items": [
         {
-            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/scifi-exhibit-2021",
+            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/dwg.json",
             "label": {
                 "none": [
-                    "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change"
+                    "Dallas Women's Gallery Oral Histories"
                 ]
             },
             "type": "Collection",
             "thumbnail": [
                 {
-                    "id": "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg",
+                    "id": "https://avalon.library.tamu.edu/collections/xp68kg37h/poster",
                     "type": "Image"
                 }
             ],
             "summary": {
                 "none": [
-                    "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change was an exhibit that took place in Cushing Library’s 2nd-floor Wendler Gallery from January 19 – June 30, 2021. It was dedicated to exploring many of the narratives that science fiction has created to help people understand and grapple with the existential threat of human-caused climate change."
+                    "This collection features video oral histories that recount the story of the Dallas Women’s Gallery, an artist-run space founded in 1975 that opened new doors for women and emerging artists in Texas. The interviews illuminate the creativity, resilience, and impact of a landmark yet often overlooked chapter in the state’s art history."
                 ]
             }
         },

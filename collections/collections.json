@@ -74,6 +74,26 @@
             }
         },
         {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/child.json",
+            "label": {
+                "none": [
+                    "Children’s Collection"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/f5d1d6d6-b9a6-3ccb-a5db-9a60285ff0ea/full/553,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All digital Collections from the Children's Collection"
+                ]
+            }
+        },
+        {
             "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/literature.json",
             "label": {
                 "none": [
@@ -110,6 +130,26 @@
             "summary": {
                 "none": [
                     "All map collections from University Archives"
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/oral-histories.json",
+            "label": {
+                "none": [
+                    "Interviews and Oral Histories Collection"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://avalon.library.tamu.edu/collections/xp68kg37h/poster",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All Oral History and Interview Collections from Texas A&M University"
                 ]
             }
         },

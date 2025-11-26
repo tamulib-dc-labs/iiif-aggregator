@@ -1,0 +1,37 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/child.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Children’s Collection"
+        ]
+    },
+    "summary": {
+        "none": [
+            "All digital Collections from the Children's Collection"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/alice_in_wonderland",
+            "label": {
+                "none": [
+                    "The Faces of Alice in Wonderland"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/f5d1d6d6-b9a6-3ccb-a5db-9a60285ff0ea/full/553,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "This exhibit features images of Alice from artists all over the world, starting with Alice's original illustrator Sir John Tenniel. Alice may be a single little girl, but she wears many faces and many bodies. A variety of artists have interpreted Alice and Carroll's other characters in different styles, using different imagery, and with different themes and motivations. It's a particularly fitting situation for Alice, who repeatedly has her identity questioned (not least by herself) throughout the books."
+                ]
+            }
+        }
+    ]
+}
