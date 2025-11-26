@@ -3,6 +3,22 @@ parent:
   thumbnail: "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png"
   summary: "A IIIF Collection containing all cultural heritage collections from Texas A&M Libraries"
 collections:
+  batallion:
+    name: The Battalion
+    summary: |
+      The Battalion started production in 1893 as a monthly publication by the Stephen F. Austin and Calliopean Literary Societies until 1906 when publication was taken over by the Student Association. The Battalion is the longest running student newspaper at Texas A&M, having been continuously published since 1893 with the exception for a short period in 1918 during World War I.
+    curator: Krista Oldham
+    groups:
+      - ua
+      - all
+    iiif_collection: "https://newspaper.library.tamu.edu/lccn/sn86088544.json"
+    platform:
+      name: OpenOni
+      url: "https://newspaper.library.tamu.edu/lccn/sn86088544"
+      file_location: OpenOni
+    notes:
+      - ""
+    thumbnail: "https://newspaper.library.tamu.edu/images/iiif/batch_txa_batt_ver06%2Fdata%2Fsn86088544%2Fprint%2F1893100101%2F0001.jp2/full/360,/0/default.jpg"
   berger:
     name: Berger-Cloonan Collection of Decorated Papers
     summary: |
@@ -142,6 +158,37 @@ collections:
       - "This collection is technically not online yet."
       - "This should pull from From the Page Collection"
     thumbnail: "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg"
+  chicano:
+    name: "Chicano Movement and Mestizaje Ideology Oral History"
+    summary: ""
+    curator: ""
+    groups:
+      - oral-histories
+      - all
+    iiif_collection: "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/chicano.json"
+    platform:
+      name: Avalon
+      url: "https://avalon.library.tamu.edu/collections/j67313881"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://avalon.library.tamu.edu/collections/j67313881/poster"
+  daily-bulletin:
+    name: The Daily Bulletin
+    summary: |
+      A student publication from Texas A&M University.
+    curator: Krista Oldham
+    groups:
+      - ua
+      - all
+    iiif_collection: "https://newspaper.library.tamu.edu/lccn/sn37020267.json"
+    platform:
+      name: OpenOni
+      url: "https://newspaper.library.tamu.edu/lccn/sn37020267"
+      file_location: OpenOni
+    notes:
+      - ""
+    thumbnail: "https://newspaper.library.tamu.edu/images/iiif/batch_txa_daily_ver001%2Fdata%2Fsn37020267%2Fprint%2F1916012901%2F0001.jp2/full/360,/0/default.jpg"
   dwg:
     name: "Dallas Women's Gallery Oral Histories"
     summary: This collection features video oral histories that recount the story of the Dallas Women’s Gallery, an artist-run space founded in 1975 that opened new doors for women and emerging artists in Texas. The interviews illuminate the creativity, resilience, and impact of a landmark yet often overlooked chapter in the state’s art history.
@@ -279,6 +326,22 @@ collections:
     notes:
       - ""
     thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
+  veterans:
+    name: "Veterans of the Valley"
+    summary: "Veterans of the Valley is a collection of 150 interviews and preparatory materials created for the KAMU-TV produced and aired television series of the same name. Created by host Tom Turbiville at WTAW radio as “Bravo Brazos Valley,” “Veterans of the Valley” was developed in 2004 at the request of KAMU-TV’s Jon Bennett and co-produced by Kyle Netterville at KAMU-TV’s studio on the Texas A&M University, College Station campus. The collection was donated to Cushing Memorial Library and Archives in 2017 by Turbiville with the knowledge and understanding from KAMU that the materials would be made publicly available."
+    curator: "Anton du Plessis"
+    groups:
+      - oral-histories
+      - all
+      - military
+    iiif_collection: "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/veterans.json"
+    platform:
+      name: Avalon
+      url: "https://avalon.library.tamu.edu/collections/5999n359j"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://avalon.library.tamu.edu/collections/5999n359j/poster"
   who-in-the-world:
     name: "The Faces of Alice in Wonderland"
     summary: |
@@ -300,6 +363,7 @@ groups:
     name: All Collections
     thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
     members:
+      - batallion
       - berger
       - berger-two
       - berger-three
@@ -307,6 +371,8 @@ groups:
       - bryan-150
       - charting-texas
       - cherokee-freedmen
+      - chicano
+      - daily-bulletin
       - dwg
       - live-to-build
       - maps-of-brazos
@@ -316,6 +382,8 @@ groups:
       - stephen-powys-two
       - stephen-powys-three
       - time-to-resolve
+      - veterans
+      - who-in-the-world
     summary: A IIIF Collection containing all Collections with no sorting
   africana:
     name: Africana Studies
@@ -362,12 +430,17 @@ groups:
     members: []
   military:
     name: Military Collection
-    members: []
+    members:
+      - veterans
+    thumbnail: "https://avalon.library.tamu.edu/collections/5999n359j/poster"
+    summary: "All digital collections from the Military Collection"
   oral-histories:
     name: Interviews and Oral Histories Collection
     members:
+      - chicano
       - dwg
       - scifi-radio
+      - veterans
     summary: All Oral History and Interview Collections from Texas A&M University
     thumbnail: https://avalon.library.tamu.edu/collections/xp68kg37h/poster
   other:
@@ -390,6 +463,8 @@ groups:
   ua:
     name: University Archives
     members:
+      - batallion
+      - daily-bulletin
       - time-to-resolve
     summary: "All collections from University Archives"
     thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
