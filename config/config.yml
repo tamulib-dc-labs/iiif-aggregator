@@ -142,6 +142,21 @@ collections:
       - "This collection is technically not online yet."
       - "This should pull from From the Page Collection"
     thumbnail: "https://api.library.tamu.edu/iiif/2/b0ab3ccf-58e0-30b6-9dc8-4b5e21ca11a6/full/364,/0/default.jpg"
+  dwg:
+    name: "Dallas Women's Gallery Oral Histories"
+    summary: This collection features video oral histories that recount the story of the Dallas Women’s Gallery, an artist-run space founded in 1975 that opened new doors for women and emerging artists in Texas. The interviews illuminate the creativity, resilience, and impact of a landmark yet often overlooked chapter in the state’s art history.
+    curator: "Tianna Uchayz"
+    groups:
+      - oral-histories
+      - all
+    iiif_collection: "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/dwg.json"
+    platform:
+      name: Avalon
+      url: "https://avalon.library.tamu.edu/collections/xp68kg37h"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://avalon.library.tamu.edu/collections/xp68kg37h/poster"
   live-to-build:
     name: "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change"
     summary: "Live To Build A Better World: Despair, Survival, and Hope in Science Fiction’s Response to Environmental Change was an exhibit that took place in Cushing Library’s 2nd-floor Wendler Gallery from January 19 – June 30, 2021. It was dedicated to exploring many of the narratives that science fiction has created to help people understand and grapple with the existential threat of human-caused climate change."
@@ -187,6 +202,22 @@ collections:
     notes:
       - ""
     thumbnail: "https://library.tamu.edu//assets/images/eternal-passion.jpg"
+  scifi-radio:
+    name: "Science Fiction Radio Show Collection"
+    summary: "This collection features episodes of The Science Fiction Radio Show, which included interviews with authors, scholars, and other notable figures in the science fiction and fantasy fields, as well as discussions among the hosts on topics such as computers, L. Frank Baum, and science fiction music. The show was created by David Carson, Daryl Lane, Keith Johnson, and David Crews with William Vernon joining the show early on. The show began airing in June 1980 from Odessa College in Odessa, Texas, and continued through its final broadcast on December 31, 1983."
+    curator: "Jeremy Brett"
+    groups:
+      - scifi
+      - oral-histories
+      - all
+    iiif_collection: "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/scifiradio.json"
+    platform:
+      name: Avalon
+      url: "https://avalon.library.tamu.edu/collections/vd66w0068"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://avalon.library.tamu.edu/collections/vd66w0068/poster"
   stephen-powys:
     name: "Stephen Powys Marks London Collection"
     summary: ""
@@ -248,6 +279,22 @@ collections:
     notes:
       - ""
     thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
+  who-in-the-world:
+    name: "The Faces of Alice in Wonderland"
+    summary: |
+      This exhibit features images of Alice from artists all over the world, starting with Alice's original illustrator Sir John Tenniel. Alice may be a single little girl, but she wears many faces and many bodies. A variety of artists have interpreted Alice and Carroll's other characters in different styles, using different imagery, and with different themes and motivations. It's a particularly fitting situation for Alice, who repeatedly has her identity questioned (not least by herself) throughout the books.
+    curator: "Unknown"
+    groups:
+      - child
+      - all
+    iiif_collection: "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/alice_in_wonderland"
+    platform:
+      name: Spotlight
+      url: "https://spotlight.library.tamu.edu/spotlight/alice-in-wonderland"
+      file_location: fedora
+    notes:
+      - ""
+    thumbnail: "https://api.library.tamu.edu/iiif/2/f5d1d6d6-b9a6-3ccb-a5db-9a60285ff0ea/full/553,/0/default.jpg"
 groups:
   all:
     name: All Collections
@@ -260,9 +307,11 @@ groups:
       - bryan-150
       - charting-texas
       - cherokee-freedmen
+      - dwg
       - live-to-build
       - maps-of-brazos
       - nicholas-basbanes
+      - scifi-radio
       - stephen-powys
       - stephen-powys-two
       - stephen-powys-three
@@ -285,7 +334,10 @@ groups:
     summary: A IIIF Collection containing all collections related to Book Arts
   child:
     name: Children’s Collection
-    members: []
+    members:
+      - who-in-the-world
+    thumbnail: "https://api.library.tamu.edu/iiif/2/f5d1d6d6-b9a6-3ccb-a5db-9a60285ff0ea/full/553,/0/default.jpg"
+    summary: All digital Collections from the Children's Collection
   dykes:
     name: Dykes Rangeland Collection
     members: []
@@ -311,9 +363,13 @@ groups:
   military:
     name: Military Collection
     members: []
-  oral:
+  oral-histories:
     name: Interviews and Oral Histories Collection
-    members: []
+    members:
+      - dwg
+      - scfi-radio
+    summary: All Oral History and Interview Collections from Texas A&M University
+    thumbnail: https://avalon.library.tamu.edu/collections/xp68kg37h/poster
   other:
     name: Other Collections
     members: []
@@ -321,6 +377,7 @@ groups:
     name: Science Fiction and Fantasy Collection
     members:
       - live-to-build
+      - scifi-radio
     thumbnail: "https://api.library.tamu.edu/iiif/2/9ac48bd4-69fd-3b2b-8b31-cf1625bd8940/full/337,/0/default.jpg"
     summary: "All Science Fiction and Fantasy Collections"
   texas:
