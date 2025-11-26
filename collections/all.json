@@ -358,6 +358,26 @@
             "summary": ""
         },
         {
+            "id": "https://newspaper.library.tamu.edu/lccn/sn84009780.json",
+            "label": {
+                "none": [
+                    "The Texas Aggie"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://newspaper.library.tamu.edu/images/iiif/batch_txa_aggie_ver001%2Fdata%2Fsn84009780%2Fprint%2F1921051501%2F0001.jp2/full/360,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "A student publication from Texas A&M University."
+                ]
+            }
+        },
+        {
             "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/time_of_resolve",
             "label": {
                 "none": [
