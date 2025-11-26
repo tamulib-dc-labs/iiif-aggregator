@@ -310,6 +310,22 @@ collections:
     notes:
       - "Not sure if this is unique"
     thumbnail: "https://api.library.tamu.edu/iiif/2/d2fa81db-fac2-37dc-8c7c-ccfbc203e567/full/261,/0/default.jpg"
+  texas-aggie:
+    name: The Texas Aggie
+    summary: |
+      A student publication from Texas A&M University.
+    curator: Krista Oldham
+    groups:
+      - ua
+      - all
+    iiif_collection: "https://newspaper.library.tamu.edu/lccn/sn84009780.json"
+    platform:
+      name: OpenOni
+      url: "https://newspaper.library.tamu.edu/lccn/sn84009780"
+      file_location: OpenOni
+    notes:
+      - ""
+    thumbnail: "https://newspaper.library.tamu.edu/images/iiif/batch_txa_aggie_ver001%2Fdata%2Fsn84009780%2Fprint%2F1921051501%2F0001.jp2/full/360,/0/default.jpg"
   time-to-resolve:
     name: "A Time of Resolve: Texas A&M during the Great Depression"
     summary: |
@@ -361,7 +377,7 @@ collections:
 groups:
   all:
     name: All Collections
-    thumbnail: "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/!200,200/0/default.jpg"
+    thumbnail: "https://api.library.tamu.edu/iiif/2/8f2b585c-0c9c-3521-83a3-bcf72d0abe71/full/248,/0/default.jpg"
     members:
       - batallion
       - berger
@@ -381,6 +397,7 @@ groups:
       - stephen-powys
       - stephen-powys-two
       - stephen-powys-three
+      - texas-aggie
       - time-to-resolve
       - veterans
       - who-in-the-world
@@ -465,6 +482,7 @@ groups:
     members:
       - batallion
       - daily-bulletin
+      - texas-aggie
       - time-to-resolve
     summary: "All collections from University Archives"
     thumbnail: "https://library.tamu.edu/assets/images/time_of_resolve.png"
