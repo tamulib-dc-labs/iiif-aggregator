@@ -14,6 +14,22 @@
     },
     "items": [
         {
+            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/chicano.json",
+            "label": {
+                "none": [
+                    "Chicano Movement and Mestizaje Ideology Oral History"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://avalon.library.tamu.edu/collections/j67313881/poster",
+                    "type": "Image"
+                }
+            ],
+            "summary": ""
+        },
+        {
             "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/dwg.json",
             "label": {
                 "none": [
@@ -50,6 +66,26 @@
             "summary": {
                 "none": [
                     "This collection features episodes of The Science Fiction Radio Show, which included interviews with authors, scholars, and other notable figures in the science fiction and fantasy fields, as well as discussions among the hosts on topics such as computers, L. Frank Baum, and science fiction music. The show was created by David Carson, Daryl Lane, Keith Johnson, and David Crews with William Vernon joining the show early on. The show began airing in June 1980 from Odessa College in Odessa, Texas, and continued through its final broadcast on December 31, 1983."
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/veterans.json",
+            "label": {
+                "none": [
+                    "Veterans of the Valley"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://avalon.library.tamu.edu/collections/5999n359j/poster",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "Veterans of the Valley is a collection of 150 interviews and preparatory materials created for the KAMU-TV produced and aired television series of the same name. Created by host Tom Turbiville at WTAW radio as “Bravo Brazos Valley,” “Veterans of the Valley” was developed in 2004 at the request of KAMU-TV’s Jon Bennett and co-produced by Kyle Netterville at KAMU-TV’s studio on the Texas A&M University, College Station campus. The collection was donated to Cushing Memorial Library and Archives in 2017 by Turbiville with the knowledge and understanding from KAMU that the materials would be made publicly available."
                 ]
             }
         }

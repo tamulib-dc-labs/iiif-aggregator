@@ -134,6 +134,26 @@
             }
         },
         {
+            "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/military.json",
+            "label": {
+                "none": [
+                    "Military Collection"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://avalon.library.tamu.edu/collections/5999n359j/poster",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "All digital collections from the Military Collection"
+                ]
+            }
+        },
+        {
             "id": "https://tamulib-dc-labs.github.io/iiif-aggregator/collections/oral-histories.json",
             "label": {
                 "none": [

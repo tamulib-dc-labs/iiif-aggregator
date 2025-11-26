@@ -14,6 +14,26 @@
     },
     "items": [
         {
+            "id": "https://newspaper.library.tamu.edu/lccn/sn86088544.json",
+            "label": {
+                "none": [
+                    "The Battalion"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://newspaper.library.tamu.edu/images/iiif/batch_txa_batt_ver06%2Fdata%2Fsn86088544%2Fprint%2F1893100101%2F0001.jp2/full/360,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "The Battalion started production in 1893 as a monthly publication by the Stephen F. Austin and Calliopean Literary Societies until 1906 when publication was taken over by the Student Association. The Battalion is the longest running student newspaper at Texas A&M, having been continuously published since 1893 with the exception for a short period in 1918 during World War I."
+                ]
+            }
+        },
+        {
             "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/berger_cloonan",
             "label": {
                 "none": [
@@ -150,6 +170,42 @@
             "summary": {
                 "none": [
                     "This collection consists of written testimonies, letters, and affidavits related to over 30 applications of African Americans and their families that were denied enrollment as Cherokee Freedmen. The hearings were mostly conducted at Fort Gibson or Muskogee, Oklahoma by the United States Department of the Interior’s Commission to the Five Civilized Tribes (a.k.a. the Dawes Commission). Images of the original envelopes are included for most of the documents, which are dated from 1901 to 1907."
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/chicano.json",
+            "label": {
+                "none": [
+                    "Chicano Movement and Mestizaje Ideology Oral History"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://avalon.library.tamu.edu/collections/j67313881/poster",
+                    "type": "Image"
+                }
+            ],
+            "summary": ""
+        },
+        {
+            "id": "https://newspaper.library.tamu.edu/lccn/sn37020267.json",
+            "label": {
+                "none": [
+                    "The Daily Bulletin"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://newspaper.library.tamu.edu/images/iiif/batch_txa_daily_ver001%2Fdata%2Fsn37020267%2Fprint%2F1916012901%2F0001.jp2/full/360,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "A student publication from Texas A&M University."
                 ]
             }
         },
@@ -318,6 +374,46 @@
             "summary": {
                 "none": [
                     "\"A Time of Resolve: Texas A&M during the Great Depression,\" was an exhibit at Texas A&M's Cushing Memorial Library and Archives that ran September 7, 2018 through February 22, 2019."
+                ]
+            }
+        },
+        {
+            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories/veterans.json",
+            "label": {
+                "none": [
+                    "Veterans of the Valley"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://avalon.library.tamu.edu/collections/5999n359j/poster",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "Veterans of the Valley is a collection of 150 interviews and preparatory materials created for the KAMU-TV produced and aired television series of the same name. Created by host Tom Turbiville at WTAW radio as “Bravo Brazos Valley,” “Veterans of the Valley” was developed in 2004 at the request of KAMU-TV’s Jon Bennett and co-produced by Kyle Netterville at KAMU-TV’s studio on the Texas A&M University, College Station campus. The collection was donated to Cushing Memorial Library and Archives in 2017 by Turbiville with the knowledge and understanding from KAMU that the materials would be made publicly available."
+                ]
+            }
+        },
+        {
+            "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/alice_in_wonderland",
+            "label": {
+                "none": [
+                    "The Faces of Alice in Wonderland"
+                ]
+            },
+            "type": "Collection",
+            "thumbnail": [
+                {
+                    "id": "https://api.library.tamu.edu/iiif/2/f5d1d6d6-b9a6-3ccb-a5db-9a60285ff0ea/full/553,/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "summary": {
+                "none": [
+                    "This exhibit features images of Alice from artists all over the world, starting with Alice's original illustrator Sir John Tenniel. Alice may be a single little girl, but she wears many faces and many bodies. A variety of artists have interpreted Alice and Carroll's other characters in different styles, using different imagery, and with different themes and motivations. It's a particularly fitting situation for Alice, who repeatedly has her identity questioned (not least by herself) throughout the books."
                 ]
             }
         }
